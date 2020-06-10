@@ -21,7 +21,7 @@ class Transfer
       amount = 0
       
     end 
-    
+    "Transaction rejected. Please check your account balance."
   
   end 
   
