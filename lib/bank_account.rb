@@ -10,5 +10,16 @@ class BankAccount
   
   def deposit
   end 
+  
+  def display_balance 
+    @balance
+  end 
+  
+  def valid? 
+    @sastus == 'open' && @balance > 0
+  end 
+  
+  def close_account
+  end 
 
 end
