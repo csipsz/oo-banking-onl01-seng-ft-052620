@@ -19,6 +19,7 @@ class Transfer
       "Transaction rejected. Please check your account balance."
     else 
       receiver.balance += amount
+      amount = 0
     end 
   end 
 end
