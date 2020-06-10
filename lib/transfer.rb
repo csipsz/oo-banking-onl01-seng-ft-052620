@@ -17,6 +17,7 @@ class Transfer
     if !sender.valid? 
       "Transaction rejected. Please check your account balance."
     else 
-      
+      receiver.deposit(amount)
+    end 
   end 
 end
