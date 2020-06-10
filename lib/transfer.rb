@@ -20,6 +20,7 @@ class Transfer
       self.status = 'complete'
       amount = 0
     else 
+      ""
     end 
     
   
