@@ -30,5 +30,6 @@ class Transfer
     if status == 'complete'
       
   end 
+end 
   
 end
