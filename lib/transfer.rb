@@ -27,6 +27,3 @@ class Transfer
   end 
   
 end
-
-
-
